@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Mohamad Al Nasser</title>
+    <link rel="stylesheet" href="imgs/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="imgs/TICHTRIAD-tab-icon.png">
+    <link rel="stylesheet" href="sytle.css">
+
+</head>
+
+<body>
+
+    <div class="cnter" id="looding">
+
+    <div class="looding">
+        <img src="imgs/loading.gif" alt="">
+        <div class="par" >loading....</div>
+        <div class="backImg">
+            
+        </div>
+    </div>
+</div>
+
+    <header id="content">
+        <nav>
+            <div class="logo" data-tilt data-tilt-reset="false">
+                <img src="imgs/TICHTRIAD-tab-icon.png" alt="TICHTRIAD logo">
+                <h3>Abdullah<span>Nasser</span></h3>
+            </div>
+            <div class="items">
+                <ul>
+                    <a href="#">
+                        <li class="home" id="home">Home</li>
+                    </a>
+                    <a href="#">
+                        <li id="about">About me</li>
+                    </a>
+                    <a href="#">
+                        <li id="work">my works</li>
+                    </a>
+                </ul>
+                <div class="btnBar" id="btnBar">
+
+                </div>
+                <div class="btnBar1" id="btnBar1">
+
+                </div>
+            </div>
+            <div class="rightNav">
+                <button class="btn">Contact me</button>
+                <div class="bars" id="bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- ========================dark-light mode============== -->
+        <div class="modeBtn" id="darkMode">
+            <div  id="arrow">
+                <img src="imgs/arrow.png" style="margin-left: -30px;" width="25" alt="">
+            </div>
+            <div class="iconCon" onclick="expandd()"  id="modbtn">
+                <div class="circll"id="circll">
+
+                    <img src="imgs/sun.png" width="20" id="sun" alt="sun">
+                    <img src="imgs/half-moon.png" width="20" id="moon" alt="half-moon">
+                </div>
+            </div>
+            <div class="contactMe" id="contactMe">
+                <h5 style="font-size: 13px;">Contact Me</h5>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="mainContant">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
+                        <div class="container window" id="window" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="row headd d-flex">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="buton">
+                                        <div class="circle" id="close"></div>
+                                        <div class="circle" id="min" style="background-color: goldenrod"></div>
+                                        <div class="circle" id="max" style="background-color: rgb(10, 172, 10)"></div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+
+                                    <div class="terminal d-flex">
+                                        <h5
+                                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-right: 10px; color: white;">
+                                            Terminal</h5>
+                                        <img src="imgs/terminal.png" width="30" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row  textcontant">
+                                <h4 style="color: rgb(243, 15, 15) !important; font-size: 13px;">root@cyber-X:<span
+                                        style="color: rgb(51, 238, 14) !important;margin-left: -40px;"
+                                        id="element"></span></h4>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row contactForm" id="ContactBtn">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row d-flex m-3 heading">
+                            <div class="headingIcons heading">
+                                    <h3>Let's Work Togather</h3>
+                            </div>
+                         
+                                <div class="buton ContactBtn">
+                                    <div class="circle" id="close2"></div>
+                                    <div class="circle" id="min2" style="background-color: goldenrod"></div>
+                                    <div class="circle" id="max2" style="background-color: rgb(10, 172, 10)"></div>
+                                </div>
+                         
+                                <div class="row">
+                
+                                    <div class="col-lg-6 col-md-8 col-sm-12">
+                                        <form action="" style="display: block ;" class="form">
+                                            <input style="display: block ;"  type="text" placeholder="Your Full Name" required>
+                                            <input style="display: block ;"  type="text" placeholder="Your Countery" required>
+                                            <input style="display: block ;" type="email" placeholder="Your email" required>
+                                            <input style="display: block ;" type="text" placeholder="Your Phone Number">
+                                        </form>
+                                    </div>
+                                    <div class="col-lg-6 col-md-4 col-sm-12">
+                                        <textarea style="width: 100%;" name="commend" id=""></textarea>
+                                        <button value="submit" id="sent">send</button>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class=" container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex">
+                        <div class="card " data-aos="fade-up" data-tilt
+                            data-tilt-reverse="true">
+                            <div class="contant " id="fullStack">
+                                <h4 style="font-size: 15px;"> <img src="imgs/developer.png" width="25" alt=""> FULL STACK DEVELOPER</h4>
+                                <p>My skill set includes HTML, CSS, JavaScript, Bootstrap, PHP, SQL and React</p>
+                                <script>
+
+
+                                </script>
+                                <div class="stars" style="padding-top: 20px;">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex">
+                        <div class="card  " id="scyber" onclick="notAvilable()" onmouseenter="notAvilable()"
+                            onmouseleave="removenotAvilable()"  data-aos="fade-up" data-tilt
+                            data-tilt-reverse="true">
+                            <div class="contant">
+                                <h4 style="font-size: 14px;" id="notAvilable">
+                                    <img src="imgs/cyber-security.png" width="25" alt=""> CyberSecurity</h4>
+                                <p>Network security,cryptography, ethical hacking, security analysis, security auditing
+                                </p>
+                                <div class="stars" style="padding-top: 20px;">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex">
+                        <div class="card" data-aos="fade-up"" data-tilt
+                            data-tilt-reverse="true">
+                            <div class="contant ">
+                                <h4 style="font-size: 15px;">  <img src="imgs/desingner.png" width="25" alt=""> Graphic Designer</h4>
+                                <p style="font-size: 12px;">Visual imagination, aretistic sensibility, Knowledge of
+                                    color theory,typography skill, proficiency in design
+                                    software(photoshop,illustrator,after effect .etc) , web dsign pronciples, presentaion skills</p>
+
+                                <div class="stars" >
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img  src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 d-flex">
+                        <div class="card"  data-aos="fade-up" data-tilt
+                            data-tilt-reverse="true">
+                            <div class="contant ">
+                                <h4 style="font-size: 17px;" >  <img src="imgs/voice over.png" width="20" alt=""> Voice Over</h4>
+                                <p style="font-size: 13px;">Vocal Quality, delivery and performance,editing and
+                                    production,enuciation and
+                                    diction,sight-reading,versatility, stamina and breath control.</p>
+                                <script>
+
+
+                                </script>
+                                <div class="stars" style="padding-top: 20px;">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                    <img src="imgs/stars1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="row">
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+        integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
